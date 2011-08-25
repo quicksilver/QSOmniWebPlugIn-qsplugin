@@ -14,8 +14,10 @@
 	<string>OmniWeb Module</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
 	<key>CFBundleVersion</key>
-	<string>AF</string>
+	<string>B0</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright (c) 2004, Blacktree, Inc.</string>
 	<key>QSPlugIn</key>
@@ -43,14 +45,14 @@
 &lt;/ol&gt;
 
 &lt;p&gt;This functionality requires the Web Search Module for Quicksilver.&lt;/p&gt;</string>
+		<key>icon</key>
+		<string>com.omnigroup.OmniWeb5</string>
 		<key>requiresBundle</key>
 		<string>com.omnigroup.OmniWeb5</string>
 		<key>requiresFeature</key>
 		<string>0</string>
 		<key>webIcon</key>
 		<string>image:com.omnigroup.OmniWeb5</string>
-		<key>icon</key>
-		<string>com.omnigroup.OmniWeb5</string>
 	</dict>
 	<key>QSPresetAdditions</key>
 	<array>
