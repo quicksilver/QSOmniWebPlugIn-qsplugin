@@ -1,10 +1,6 @@
 
 
 #import "QSOmniWebParser.h"
-#import <QSCore/QSCore.h>
-#import <QSFoundation/QSFoundation.h>
-//#import <QSCore/NSString_BLTRExtensions.h>
-//#import "Quicksilver_Keys.h"
 
 #define QUERY_KEY @"***"
 

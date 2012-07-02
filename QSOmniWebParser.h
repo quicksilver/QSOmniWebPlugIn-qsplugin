@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <QSCore/QSParser.h>
 
 @interface QSOmniWebObjectHandler : NSObject
 @end
