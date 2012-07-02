@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		175C2D8208268BF20030B33B /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175C2D8008268BF20030B33B /* QSFoundation.framework */; };
-		175C2D8308268BF20030B33B /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175C2D8108268BF20030B33B /* QSEffects.framework */; };
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		E1022AE906B3469300299BEC /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1022AE706B3469300299BEC /* QSCore.framework */; };
-		E1022AEA06B3469300299BEC /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1022AE806B3469300299BEC /* QSInterface.framework */; };
 		E172A30F079CD47C00BE19DD /* QSOmniWebParser.h in Resources */ = {isa = PBXBuildFile; fileRef = E172A30D079CD47C00BE19DD /* QSOmniWebParser.h */; };
 		E172A310079CD47C00BE19DD /* QSOmniWebParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E172A30E079CD47C00BE19DD /* QSOmniWebParser.m */; };
 /* End PBXBuildFile section */
@@ -21,18 +19,14 @@
 		14DE91BC10D0C8A200851A6F /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		14DE91BD10D0C8A200851A6F /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
 		14DE91BE10D0C8A200851A6F /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
-		14DE91BF10D0C8A200851A6F /* QSPlugIn_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSPlugIn_Prefix.pch; sourceTree = "<group>"; };
 		14DE91C010D0C8A200851A6F /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
 		14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
 		14DE91C210D0C8A200851A6F /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		175C2D8008268BF20030B33B /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSFoundation.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSFoundation.framework; sourceTree = "<absolute>"; };
-		175C2D8108268BF20030B33B /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSEffects.framework; sourceTree = "<absolute>"; };
-		32DBCF980370C29C00C91783 /* QSOmniWebPlugIn_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSOmniWebPlugIn_Prefix.pch; sourceTree = "<group>"; };
+		175C2D8008268BF20030B33B /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1AC9740486D14A00FE50C9 /* OmniWeb Module.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OmniWeb Module.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC9740486D14A00FE50C9 /* OmniWeb Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OmniWeb Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		E1022AE706B3469300299BEC /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSCore.framework; sourceTree = "<absolute>"; };
-		E1022AE806B3469300299BEC /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = /Applications/Quicksilver.app/Contents/Frameworks/QSInterface.framework; sourceTree = "<absolute>"; };
+		E1022AE706B3469300299BEC /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E172A30D079CD47C00BE19DD /* QSOmniWebParser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSOmniWebParser.h; sourceTree = "<group>"; };
 		E172A30E079CD47C00BE19DD /* QSOmniWebParser.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QSOmniWebParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,9 +38,7 @@
 			files = (
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
 				E1022AE906B3469300299BEC /* QSCore.framework in Frameworks */,
-				E1022AEA06B3469300299BEC /* QSInterface.framework in Frameworks */,
 				175C2D8208268BF20030B33B /* QSFoundation.framework in Frameworks */,
-				175C2D8308268BF20030B33B /* QSEffects.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +50,6 @@
 			children = (
 				14DE91B010D0C87000851A6F /* Configuration */,
 				32DBCF9E0370C38000C91783 /* Classes */,
-				32DBCF9F0370C38200C91783 /* Other Sources */,
 				0259C582FE90428111CA0C5A /* Resources */,
 				1ED78706FE9D4A0611CA0C5A /* Products */,
 				2E58F364FFB232C311CA0CBA /* Frameworks */,
@@ -69,8 +60,6 @@
 		0259C582FE90428111CA0C5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E172A30D079CD47C00BE19DD /* QSOmniWebParser.h */,
-				E172A30E079CD47C00BE19DD /* QSOmniWebParser.m */,
 				8D1AC9730486D14A00FE50C9 /* Info.plist */,
 			);
 			name = Resources;
@@ -83,18 +72,18 @@
 				14DE91BC10D0C8A200851A6F /* Debug.xcconfig */,
 				14DE91BD10D0C8A200851A6F /* Developer.xcconfig */,
 				14DE91BE10D0C8A200851A6F /* QSPlugIn_Debug.xcconfig */,
-				14DE91BF10D0C8A200851A6F /* QSPlugIn_Prefix.pch */,
 				14DE91C010D0C8A200851A6F /* QSPlugIn_Release.xcconfig */,
 				14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */,
 				14DE91C210D0C8A200851A6F /* Release.xcconfig */,
 			);
-			path = Configuration;
-			sourceTree = QS_SOURCE_ROOT;
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
 		};
 		1ED78706FE9D4A0611CA0C5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1AC9740486D14A00FE50C9 /* OmniWeb Module.qsplugin */,
+				8D1AC9740486D14A00FE50C9 /* OmniWeb Plugin.qsplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				175C2D8008268BF20030B33B /* QSFoundation.framework */,
-				175C2D8108268BF20030B33B /* QSEffects.framework */,
 				E1022AE706B3469300299BEC /* QSCore.framework */,
-				E1022AE806B3469300299BEC /* QSInterface.framework */,
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -114,24 +101,18 @@
 		32DBCF9E0370C38000C91783 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E172A30D079CD47C00BE19DD /* QSOmniWebParser.h */,
+				E172A30E079CD47C00BE19DD /* QSOmniWebParser.m */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		32DBCF9F0370C38200C91783 /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				32DBCF980370C29C00C91783 /* QSOmniWebPlugIn_Prefix.pch */,
-			);
-			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1AC9600486D14A00FE50C9 /* OmniWeb Module */ = {
+		8D1AC9600486D14A00FE50C9 /* OmniWeb Plugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FAFD1380C10569B0074ADAB /* Build configuration list for PBXNativeTarget "OmniWeb Module" */;
+			buildConfigurationList = 7FAFD1380C10569B0074ADAB /* Build configuration list for PBXNativeTarget "OmniWeb Plugin" */;
 			buildPhases = (
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
@@ -142,10 +123,10 @@
 			);
 			dependencies = (
 			);
-			name = "OmniWeb Module";
+			name = "OmniWeb Plugin";
 			productInstallPath = "$(HOME)/Developer/Palettes";
 			productName = QSOmniWebPlugIn;
-			productReference = 8D1AC9740486D14A00FE50C9 /* OmniWeb Module.qsplugin */;
+			productReference = 8D1AC9740486D14A00FE50C9 /* OmniWeb Plugin.qsplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1AC9600486D14A00FE50C9 /* OmniWeb Module */,
+				8D1AC9600486D14A00FE50C9 /* OmniWeb Plugin */,
 			);
 		};
 /* End PBXProject section */
@@ -216,23 +197,19 @@
 /* Begin XCBuildConfiguration section */
 		7FAFD1390C10569B0074ADAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DE91BE10D0C8A200851A6F /* QSPlugIn_Debug.xcconfig */;
+			baseConfigurationReference = 14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "OmniWeb Module";
-				ZERO_LINK = YES;
+				PRODUCT_NAME = "OmniWeb Plugin";
 			};
 			name = Debug;
 		};
 		7FAFD13A0C10569B0074ADAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DE91C010D0C8A200851A6F /* QSPlugIn_Release.xcconfig */;
+			baseConfigurationReference = 14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "OmniWeb Module";
-				ZERO_LINK = NO;
+				PRODUCT_NAME = "OmniWeb Plugin";
 			};
 			name = Release;
 		};
@@ -240,7 +217,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14DE91BC10D0C8A200851A6F /* Debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 			};
 			name = Debug;
 		};
@@ -248,14 +224,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14DE91C210D0C8A200851A6F /* Release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FAFD1380C10569B0074ADAB /* Build configuration list for PBXNativeTarget "OmniWeb Module" */ = {
+		7FAFD1380C10569B0074ADAB /* Build configuration list for PBXNativeTarget "OmniWeb Plugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FAFD1390C10569B0074ADAB /* Debug */,
