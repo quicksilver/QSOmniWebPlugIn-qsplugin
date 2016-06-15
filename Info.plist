@@ -26,6 +26,12 @@
 	<dict>
 		<key>author</key>
 		<string>Allan Odgaard and Rob McBroom</string>
+		<key>categories</key>
+		<array>
+			<string>Web</string>
+			<string>Applications</string>
+			<string>Search</string>
+		</array>
 		<key>description</key>
 		<string>Bookmarks, History, Search Queries, and Proxy Object.</string>
 		<key>extendedDescription</key>
@@ -49,10 +55,10 @@
 &lt;p&gt;This functionality requires the Web Search Module for Quicksilver.&lt;/p&gt;</string>
 		<key>icon</key>
 		<string>com.omnigroup.OmniWeb6</string>
-		<key>requiresBundle</key>
-		<string>com.omnigroup.OmniWeb6</string>
-		<key>requiresFeature</key>
-		<string>0</string>
+		<key>relatedBundles</key>
+		<array>
+			<string>com.omnigroup.OmniWeb6</string>
+		</array>
 	</dict>
 	<key>QSPresetAdditions</key>
 	<array>
