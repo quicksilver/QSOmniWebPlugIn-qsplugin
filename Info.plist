@@ -193,7 +193,7 @@
 		</dict>
 		<key>QSProxies</key>
 		<dict>
-			<key>com.omnigroup.OmniWeb6</key>
+			<key>QSOmniWebFrontPageProxy</key>
 			<dict>
 				<key>icon</key>
 				<string>com.omnigroup.OmniWeb6</string>
