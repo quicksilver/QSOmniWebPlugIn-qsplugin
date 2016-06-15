@@ -69,7 +69,7 @@
             url=[NSString stringWithFormat:@"%@?%@",url,formData];
         
         if ([url rangeOfString:@"%@"].location!=NSNotFound)
-            url=[url stringByReplacing:@"%@" with:QUERY_KEY];
+            url=[url stringByReplacingOccurrencesOfString:@"%@" withString:QUERY_KEY];
         else if ([url hasSuffix:@"="])
             url=[url stringByAppendingString:QUERY_KEY];
 
@@ -81,16 +81,16 @@
                 continue;
             
             if ([method isEqualToString:@"POST"])
-                url=[url stringByReplacing:@"http://" with:@"qssp-http://"];
+                url=[url stringByReplacingOccurrencesOfString:@"http://" withString:@"qssp-http://"];
             if ([method isEqualToString:@"GET"])
-                url=[url stringByReplacing:@"http://" with:@"qss-http://"];
+                url=[url stringByReplacingOccurrencesOfString:@"http://" withString:@"qss-http://"];
         }
 
         // replace spaces with %20
-        url=[url stringByReplacing:@" " with:@"%20"];
+        url=[url stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
 
         // remove @ from key
-        key=[key stringByReplacing:@"@" with:@""];
+        key=[key stringByReplacingOccurrencesOfString:@"@" withString:@""];
 
         // NSLog(@"url %@",url);
         QSObject *object=[QSObject URLObjectWithURL:url title:key];
