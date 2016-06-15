@@ -8,7 +8,7 @@
 -(id)resolveProxyObject:(id)proxy
 {
     id res = nil;
-    if(!QSAppIsRunning(@"com.omnigroup.OmniWeb5")) return nil;
+    if(!QSAppIsRunning(@"com.omnigroup.OmniWeb6")) return nil;
     NSAppleScript* script = [[[NSAppleScript alloc] initWithSource:@"tell application \"OmniWeb\" to if(count browsers) > 0 then address of first browser"] autorelease];
     NSString* url = [[script executeAndReturnError:nil] stringValue];
     if(url)
@@ -43,7 +43,7 @@
 
 @implementation QSOmniWebShortcutsParser
 - (BOOL)validParserForPath:(NSString *)path{
-    return [[path lastPathComponent]isEqualToString:@"com.omnigroup.OmniWeb5.plist"];
+    return [[path lastPathComponent] isEqualToString:@"com.omnigroup.OmniWeb6.plist"];
 }
 - (NSArray *)objectsFromPath:(NSString *)path withSettings:(NSDictionary *)settings{
     

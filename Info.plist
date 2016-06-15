@@ -48,13 +48,11 @@
 
 &lt;p&gt;This functionality requires the Web Search Module for Quicksilver.&lt;/p&gt;</string>
 		<key>icon</key>
-		<string>com.omnigroup.OmniWeb5</string>
+		<string>com.omnigroup.OmniWeb6</string>
 		<key>requiresBundle</key>
-		<string>com.omnigroup.OmniWeb5</string>
+		<string>com.omnigroup.OmniWeb6</string>
 		<key>requiresFeature</key>
 		<string>0</string>
-		<key>webIcon</key>
-		<string>image:com.omnigroup.OmniWeb5</string>
 	</dict>
 	<key>QSPresetAdditions</key>
 	<array>
@@ -67,7 +65,7 @@
 					<key>ID</key>
 					<string>QSPresetOmniWebBookmarks</string>
 					<key>icon</key>
-					<string>com.omnigroup.OmniWeb5</string>
+					<string>com.omnigroup.OmniWeb6</string>
 					<key>name</key>
 					<string>OmniWeb Bookmarks</string>
 					<key>requiresSettingsPath</key>
@@ -88,7 +86,7 @@
 					<key>ID</key>
 					<string>QSPresetOmniWebServerBookmarks</string>
 					<key>icon</key>
-					<string>com.omnigroup.OmniWeb5</string>
+					<string>com.omnigroup.OmniWeb6</string>
 					<key>name</key>
 					<string>OmniWeb Bookmarks (Server)</string>
 					<key>requiresSettingsPath</key>
@@ -109,7 +107,7 @@
 					<key>ID</key>
 					<string>QSPresetOmniWebFavorites</string>
 					<key>icon</key>
-					<string>com.omnigroup.OmniWeb5</string>
+					<string>com.omnigroup.OmniWeb6</string>
 					<key>name</key>
 					<string>OmniWeb Favorites</string>
 					<key>requiresSettingsPath</key>
@@ -161,7 +159,7 @@
 						<key>parser</key>
 						<string>QSOmniWebShortcutsParser</string>
 						<key>path</key>
-						<string>~/Library/Preferences/com.omnigroup.OmniWeb5.plist</string>
+						<string>~/Library/Preferences/com.omnigroup.OmniWeb6.plist</string>
 						<key>skipItem</key>
 						<string>1</string>
 					</dict>
@@ -170,11 +168,11 @@
 				</dict>
 			</array>
 			<key>icon</key>
-			<string>com.omnigroup.OmniWeb5</string>
+			<string>com.omnigroup.OmniWeb6</string>
 			<key>name</key>
 			<string>OmniWeb</string>
 			<key>requiresBundle</key>
-			<string>com.omnigroup.OmniWeb5</string>
+			<string>com.omnigroup.OmniWeb6</string>
 			<key>source</key>
 			<string>QSGroupObjectSource</string>
 		</dict>
@@ -195,10 +193,10 @@
 		</dict>
 		<key>QSProxies</key>
 		<dict>
-			<key>com.omnigroup.OmniWeb5</key>
+			<key>com.omnigroup.OmniWeb6</key>
 			<dict>
 				<key>icon</key>
-				<string>com.omnigroup.OmniWeb5</string>
+				<string>com.omnigroup.OmniWeb6</string>
 				<key>name</key>
 				<string>Current Web Page (OmniWeb)</string>
 				<key>providerClass</key>
