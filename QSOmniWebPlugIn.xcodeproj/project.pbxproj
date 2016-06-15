@@ -18,8 +18,6 @@
 		14DE91BB10D0C8A200851A6F /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		14DE91BC10D0C8A200851A6F /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		14DE91BD10D0C8A200851A6F /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
-		14DE91BE10D0C8A200851A6F /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
-		14DE91C010D0C8A200851A6F /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
 		14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
 		14DE91C210D0C8A200851A6F /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		175C2D8008268BF20030B33B /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +69,6 @@
 				14DE91BB10D0C8A200851A6F /* Common.xcconfig */,
 				14DE91BC10D0C8A200851A6F /* Debug.xcconfig */,
 				14DE91BD10D0C8A200851A6F /* Developer.xcconfig */,
-				14DE91BE10D0C8A200851A6F /* QSPlugIn_Debug.xcconfig */,
-				14DE91C010D0C8A200851A6F /* QSPlugIn_Release.xcconfig */,
 				14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */,
 				14DE91C210D0C8A200851A6F /* Release.xcconfig */,
 			);
@@ -199,8 +195,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "OmniWeb Plugin";
 			};
 			name = Debug;
 		};
@@ -208,8 +202,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14DE91C110D0C8A200851A6F /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "OmniWeb Plugin";
 			};
 			name = Release;
 		};
