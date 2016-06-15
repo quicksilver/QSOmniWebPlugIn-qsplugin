@@ -215,5 +215,10 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>QSRequirements</key>
+	<dict>
+		<key>version</key>
+		<string>4012</string>
+	</dict>
 </dict>
 </plist>
